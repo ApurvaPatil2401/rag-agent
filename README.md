@@ -17,13 +17,21 @@ In addition to querying federal documents, the chatbot can also answer general q
 
 rag_agent_project/
 ├── agent/ # RAG agent logic (prompts, tools, routing)
+
 ├── api/ # FastAPI backend
+
 ├── db/ # Database connector
+
 ├── pipeline/ # ETL pipeline (fetch, clean, load federal data)
+
 ├── ui/ # Simple HTML frontend
+
 ├── venv/ # Python virtual environment (excluded from Git)
+
 ├── .gitignore
+
 ├── README.md
+
 ├── requirements.txt
 
 
