@@ -1,4 +1,4 @@
-** RAG Agent - Federal Documents Chatbot
+** RAG Agent 
 **
 
 This project implements a **Retrieval-Augmented Generation (RAG) Agent** that allows users to interact with U.S. federal government documents (like executive orders, memoranda, etc.) through a natural language interface.
@@ -16,6 +16,7 @@ In addition to querying federal documents, the chatbot can also answer general q
 ## 📁 Project Structure
 
 rag_agent_project/
+
 ├── agent/ # RAG agent logic (prompts, tools, routing)
 
 ├── api/ # FastAPI backend
@@ -83,5 +84,10 @@ Did any memorandums get published last week?
 
 📜 License
 This project is for educational/demo purposes. 
+
+#sample output
+![image](assets/Output_1.jpeg)
+![image](assets/Output_2.jpeg)
+
 
 
