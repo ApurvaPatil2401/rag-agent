@@ -48,42 +48,48 @@ rag_agent_project/
 
  1. Clone the repository
 
-git clone https://github.com/ApurvaPatil2401/rag-agent.git
-cd rag-agent
+ git clone https://github.com/ApurvaPatil2401/rag-agent.git
+ 
+ cd rag-agent
 
 2. Create & activate virtual environment
 
-python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
+ python -m venv venv
+ 
+ source venv/bin/activate      # On Windows: venv\Scripts\activate
 
 3. Install dependencies
 
-pip install -r requirements.txt
+ pip install -r requirements.txt
 
 4. Configure MySQL
-Make sure you have a MySQL server running. Create a database named federal_data, and create a table named federal_documents as per your pipeline logic.
+ Make sure you have a MySQL server running. Create a database named federal_data, and create a table named federal_documents as per your pipeline logic.
 
 5. Run the pipeline
 
-cd pipeline
-python loader.py
+ cd pipeline
+ 
+ python loader.py
 
 6. Start the backend API
 
-cd api
-uvicorn server:app --reload
+ cd api
+ 
+ uvicorn server:app --reload
 
 7. Open the frontend
 
-Open ui/index.html in a browser. Start chatting!
+ Open ui/index.html in a browser. Start chatting!
 
 📦 Example Queries
-Show documents signed by Trump in April 2025
-Summarize executive orders from the last 2 weeks
-Did any memorandums get published last week?
+ Show documents signed by Trump in April 2025
+ 
+ Summarize executive orders from the last 2 weeks
+ 
+ Did any memorandums get published last week?
 
 📜 License
-This project is for educational/demo purposes. 
+ This project is for educational/demo purposes. 
 
 #sample output
 
