@@ -86,7 +86,9 @@ Did any memorandums get published last week?
 This project is for educational/demo purposes. 
 
 #sample output
+
 ![image](assets/Output_1.jpeg)
+
 ![image](assets/Output_2.jpeg)
 
 
